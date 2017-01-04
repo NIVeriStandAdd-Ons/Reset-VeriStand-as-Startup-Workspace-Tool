@@ -1,6 +1,6 @@
 ## Reset VeriStand as Startup Workspace Tool ##
 
-This workspace tool automates the process of resetting the VeriStand RT EXE as startup on a Real-Time target after connecting to that target from a LabVIEW project. This replaces the need to "re-install" the VeriStand engine from MAX. 
+This workspace tool automates the process of resetting the VeriStand RT EXE as startup on a Real-Time target after connecting to that target from a LabVIEW project. This replaces the need to "re-install" the VeriStand engine from MAX or manually change and replace the .ini or .conf file.
 
 ### LabVIEW Version ###
 
@@ -14,10 +14,11 @@ Builds are not included. Download the source and build the build specification.
 
 This IP is new but fairly simple. It has not undergone thorough testing.
 
+Supports all NI Real-Time operating systems except VxWorks. It will "skip" any Windows targets it sees in the active system definition.
+
 ### Dependencies ###
 
-NI LabVIEW
-NI VeriStand
+NI LabVIEW, NI VeriStand. Requires WebDAV Server to be installed on target.
 
 ### License ###
 
