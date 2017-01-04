@@ -1,4 +1,4 @@
-## IP Name ##
+## Reset VeriStand as Startup Workspace Tool ##
 
 This workspace tool automates the process of resetting the VeriStand RT EXE as startup on a Real-Time target after connecting to that target from a LabVIEW project. This replaces the need to "re-install" the VeriStand engine from MAX. 
 
